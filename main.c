@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -125,7 +126,11 @@ void MakeMove(int *board, const int sq, const int side) {
 	board[sq] = side;
 }
 
-
+/* 
+	GetComputerMove
+	@take: int
+	@return: int
+*/
 int GetComputerMove(const int *board) {
 
 	int index = 0;
